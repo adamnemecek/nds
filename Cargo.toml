@@ -1,11 +1,11 @@
 [package]
-name = "nds"
+name = "ngds"
 version = "0.1.0"
 authors = ["Adam Nemecek <adamnemecek@gmail.com>"]
 edition = "2018"
 description = "Rust bindings for AVFounation"
-homepage = "https://github.com/adamnemecek/nds"
-repository = "https://github.com/adamnemecek/nds"
+homepage = "https://github.com/adamnemecek/ngds"
+repository = "https://github.com/adamnemecek/ngds"
 readme = "README.md"
 keywords = ["datastructure", "stack"]
 license = "MIT"
