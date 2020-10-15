@@ -1,30 +1,30 @@
 pub struct Stack<T> {
-    stack: Vec<T>,
+    inner: Vec<T>,
 }
 
 impl<T> Stack<T> {
     pub fn new() -> Self {
-        Self { stack: vec![] }
+        Self { inner: vec![] }
     }
 
     pub fn len(&self) -> usize {
-        self.stack.len()
+        self.inner.len()
     }
 
     pub fn pop(&mut self) -> Option<T> {
-        self.stack.pop()
+        self.inner.pop()
     }
 
     pub fn push(&mut self, item: T) {
-        self.stack.push(item)
+        self.inner.push(item)
     }
 
     pub fn is_empty(&self) -> bool {
-        self.stack.is_empty()
+        self.inner.is_empty()
     }
 
     pub fn peek(&self) -> Option<&T> {
-        self.stack.last()
+        self.inner.last()
     }
 }
 
