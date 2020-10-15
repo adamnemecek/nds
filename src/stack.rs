@@ -27,3 +27,17 @@ impl<T> Stack<T> {
         self.stack.last()
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::Stack;
+    #[test]
+    fn test_stack() {
+        let mut s = Stack::new();
+        s.push(1);
+        s.push(2);
+        assert!(s.peek() == Some(&2));
+        assert!(s.pop() == Some(2));
+        assert!(s.pop() == Some(1));
+    }
+}
