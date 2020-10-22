@@ -1,9 +1,9 @@
 [package]
 name = "ngds"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Adam Nemecek <adamnemecek@gmail.com>"]
 edition = "2018"
-description = "Rust bindings for AVFounation"
+description = "Some basic structures like stack"
 homepage = "https://github.com/adamnemecek/ngds"
 repository = "https://github.com/adamnemecek/ngds"
 readme = "README.md"

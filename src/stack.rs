@@ -12,6 +12,7 @@ impl<T> Stack<T> {
     }
 
     pub fn pop(&mut self) -> Option<T> {
+        assert!(!self.is_empty());
         self.inner.pop()
     }
 
